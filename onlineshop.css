@@ -1,0 +1,2334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--------------Header---------------*/
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    gap: 30px;
+   justify-content: center;}
+.Logo1 img{
+    width: 200px;
+    height: 150px;
+}
+.Logo2 img{
+    width: 800px;
+    height: 150px;
+    }
+    /*-----------------------------*/
+ /*-----------section-2,Dropdown bar---------------*/
+ /*-----------------------------*/
+.header2{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(240, 180, 28);
+    position: sticky;  
+    top: 150px;
+    display: flex;
+    z-index: 100;
+    justify-content: center;
+}
+.Navigation{
+margin-left: 20px;
+margin-top: 10px;
+z-index: 100;
+color:white;
+display: flex;
+gap: 60px;}
+/*------------Drop down shop--------------*/
+.container-btnshop{
+    width:140px;
+    height: 0px;
+    color:black;
+    padding-left: 20px;
+    border: 2px solid rgb(19, 11, 11);
+    background-color: rgb(249, 163, 5);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;}
+.btn-shop{
+    width: 140px;
+    height: 100%;
+    padding: 6px 50px;
+    border-radius: 5px;
+   color: whitesmoke;
+    background-color: rgb(174, 87, 26);
+    display: flex;}
+.shop:hover .container-btnshop{
+        height: 100px;
+        opacity: 1;
+        overflow: hidden;
+}
+.shop:hover .icon-up{
+    transform: rotate(180deg);
+}
+.icon-up{
+    transition: all 0.3s ease-in-out;
+    
+}
+.shop{
+        width: 100px;
+        height: 30px;
+}
+/*------------Drop down custome--------------*/
+.container-btncustome{
+    width:140px;
+    height: 0px;
+    color:black;
+    padding-left: 20px;
+    border: 2px solid rgb(19, 11, 11);
+    background-color: rgb(249, 163, 5);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;}
+.btn-custome{
+    width: 140px;
+    height: 100%;
+    padding: 6px 50px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(174, 87, 26);
+    display: flex;}
+.custome:hover .container-btncustome{
+        height: 140px;
+        opacity: 1;
+        overflow: hidden;
+        z-index: 1000;
+}
+.custome:hover .icon-up{
+    transform: rotate(180deg);
+}
+.icon-up{
+    transition: all 0.3s ease-in-out;
+    
+}
+.custome{
+        width: 100px;
+        height: 30px;
+       
+}
+/*------------Drop down decor--------------*/
+.container-btndecor{
+    width:140px;
+    height: 0px;
+    color:black;
+    padding-left: 20px;
+    border: 2px solid rgb(11, 8, 8);
+    background-color: rgb(249, 163, 5);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;}
+.btn-decor{
+    width: 140px;
+    height: 100%;
+    padding: 6px 50px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(174, 87, 26);
+    display: flex;}
+.decor:hover .container-btndecor{
+        height: 160px;
+        opacity: 1;
+        overflow: hidden;
+}
+.decor:hover .icon-up{
+    transform: rotate(180deg);
+}
+.icon-up{
+    transition: all 0.3s ease-in-out;
+    
+}
+.decor{
+        width: 100px;
+        height: 30px;
+}
+/*------------Drop down sale--------------*/
+.container-btnsale{
+    width:140px;
+    height: 0px;
+    color:black;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(12, 8, 8);
+    background-color: rgb(249, 163, 5);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;}
+.btn-sale{
+    width: 140px;
+    height: 100%;
+    padding: 6px 50px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: rgb(174, 87, 26);
+    display: flex;}
+.sale:hover .container-btnsale{
+        height: 130px;
+        opacity: 1;
+        overflow: hidden;
+}
+.sale:hover .icon-up{
+    transform: rotate(180deg);
+}
+.icon-up{
+    transition: all 0.3s ease-in-out;
+    
+}
+.sale{
+        width: 100px;
+        height: 30px;
+       
+}
+/*------------ search--------------*/
+.search{
+    display: flex;
+    color: white;
+    gap: 2px;}
+
+.search input{
+    width: 400px;
+    height: 25px;
+    border-radius: 5px; 
+    padding-left: 30px;
+    background-color: #c58c57;
+    border: 2px solid rgb(64, 41, 41);}
+.search-icon{
+    color: rgb(51, 8, 8);
+}
+ /*------------icon--------------*/
+ .icon{
+    display: flex;
+    gap: 40px;
+ }
+ /*------------menu--------------*/
+ .menu{
+    color: rgb(51, 8, 8);
+    display: flex;}
+ /*------------inbox--------------*/
+ .inbox{
+    color: rgb(51, 8, 8);
+    display: flex;}
+ /*------------notificatio--------------*/
+ .notification{
+    color: rgb(51, 8, 8);
+    display: flex;}
+ /*-----------------------------*/
+ /*--------------section-2---------------*/
+ /*-----------------------------*/
+ /*---------------higlight-1--------------*/
+ .higlight-1 img{
+    width: 100%;
+    height: 420px;
+    z-index: 0;
+ }
+ /*-----------------------------*/
+ /*--------------section-3---------------*/
+ /*-----------------------------*/
+ .card-control-1{
+     width: 100%;
+    height: 1310px;
+     padding: 70px;
+    margin-top: -10px;
+    display: grid;
+        gap: 70px;
+        justify-content: center;
+        grid-template-columns: repeat(4,250px);
+        grid-template-rows: repeat(2,350px);
+
+ }
+ .card1{
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.card1 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 5px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+.card1{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+.card1:hover {
+  transform: scale(1.05); 
+}
+.des1{
+   width: 225px;
+   margin-left: 20px;
+   margin-top: 5px;
+}
+.des1 h3{
+color:  #E87500;
+}
+.des1 h4{
+  padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des1 p{
+   color: #222;
+}
+.des1 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des1 button:hover{
+   background-color: #C65300;
+}
+ .card2{
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card2 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card2 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+.card2{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card2:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des2{
+   width: 225px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des2 h3{
+color:  #E87500;
+}
+.des2 h4{
+  padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des2 p{
+   color: #222;
+}
+.des2 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des2 button:hover{
+   background-color: #C65300;
+}
+ .card3{
+   
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card3 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card3 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+
+ }
+ .card3{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card3:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des3{
+   width: 225px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des3 h3{
+color:  #E87500;
+}
+.des3 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des3 p{
+   color: #222;
+}
+.des3 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des3 button:hover{
+   background-color: #C65300;
+}
+ .card4{
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card4 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card4 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card4 {
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card4:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des4{
+   width: 220px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des4 h3{
+color:  #E87500;
+}
+.des4 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des4 p{
+   color: #222;
+}
+.des4 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des4 button:hover{
+   background-color: #C65300;
+}
+ .card5{
+   
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card5 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card5 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card5{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card5:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des5{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des5 h3{
+color:  #E87500;
+}
+.des5 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des5 p{
+   color: #222;
+}
+.des5 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des5 button:hover{
+   background-color: #C65300;
+}
+ .card6{
+   
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card6 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card6 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card6{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card6:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des6{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des6 h3{
+color:  #E87500;
+}
+.des6 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des6 p{
+   color: #222;
+}
+.des6 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des6 button:hover{
+   background-color: #C65300;
+}
+ .card7{
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card7 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card7 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card7{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card7:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des7{
+   width: 215px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des7 h3{
+color:  #E87500;
+}
+.des7 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des7 p{
+   color: #222;
+}
+.des7 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des7 button:hover{
+   background-color: #C65300;
+}
+ .card8{
+   
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card8 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card8 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card8{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card8:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des8{
+   width: 215px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des8 h3{
+color:  #E87500;
+}
+.des8 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des8 p{
+   color: #222;
+}
+.des8 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des8 button:hover{
+   background-color: #C65300;
+}
+ .card9{
+    height: 380px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card9 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card9 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card9{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card9:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des9{
+   width: 215px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des9 h3{
+color:  #E87500;
+}
+.des9 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des9 p{
+   color: #222;
+}
+.des9 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des9 button:hover{
+   background-color: #C65300;
+}
+ .card10{
+    height: 380px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card10 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card10 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card10{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card10:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des10{
+   width: 215px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des10 h3{
+color:  #E87500;
+}
+.des10 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des10 p{
+   color: #222;
+}
+.des10 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des10 button:hover{
+   background-color: #C65300;
+}
+ .card11{
+    height: 380px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card11 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card11 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card11{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card11:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des11{
+   width: 215px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des11 h3{
+color:  #E87500;
+}
+.des11 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des11 p{
+   color: #222;
+}
+.des11 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des11 button:hover{
+   background-color: #C65300;
+}
+ .card12{
+    height: 380px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card12 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 135px;
+   padding: 5px 15px;
+   width: 90px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card12 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card12{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card12:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des12{
+   width: 225px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des12 h3{
+color:  #E87500;
+}
+.des12 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des12 p{
+   color: #222;
+}
+.des12 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des12 button:hover{
+   background-color: #C65300;
+}
+ /*-----------------------------*/
+ /*--------------section-4---------------*/
+ /*-----------------------------*/
+ /*---------------higlight---------------*/
+ .highlight-2 img{
+    width: 100%;
+    height: 420px;
+    margin-top: -20px;
+    z-index: 0;
+ }
+ .highlight-2 img {
+  transition: transform 0.3s ease; /* smooth animation */
+}
+ .highlight-2 img:hover {
+  transform: scale(1.01); /* zoom in slightly */
+}
+ /*-----------------------------*/
+ /*--------------section-5---------------*/
+ /*-----------------------------*/
+.card-control-2{
+    width: 10000px;
+    height: 1310px;
+     padding: 70px;
+    padding-bottom: 70px;
+    margin-top: -10px;
+    display: grid;
+        gap: 70px;
+        justify-content: center;
+        grid-template-columns: repeat(4,250px);
+        grid-template-rows: repeat(2,350px);
+
+ }
+ .card13 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+ }
+ .card13 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card13{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card13:hover {
+  transform: scale(1.05); 
+}
+.card13{
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+.des13{
+   width: 230px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des13 h3{
+color:  #E87500;
+}
+.des13 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des13 p{
+   color: #222;
+}
+.des13 button{
+   width: 200px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des13 button:hover{
+   background-color: #C65300;
+}
+ .card14{
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card14 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card14 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+.card14{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card14:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des14{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des14 h3{
+color:  #E87500;
+}
+.des14 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des14 p{
+   color: #222;
+}
+.des14 button{
+   width: 250px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des14 button:hover{
+   background-color: #C65300;
+}
+ .card15{
+   
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card15 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card15 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+
+ }
+ .card15{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card15:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des15{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des15 h3{
+color:  #E87500;
+}
+.des15 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des15 p{
+   color: #222;
+}
+.des15 button{
+   width: 250px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des15 button:hover{
+   background-color: #C65300;
+}
+ .card16{
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card16 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card16 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card16{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card16:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des16{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des16 h3{
+color:  #E87500;
+}
+.des16 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des16 p{
+   color: #222;
+}
+.des16 button{
+   width: 250px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des16 button:hover{
+   background-color: #C65300;
+}
+ .card17{
+   
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card17 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card17 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card17{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card17:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des17{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des17 h3{
+color:  #E87500;
+}
+.des17 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des17 p{
+   color: #222;
+}
+.des17 button{
+   width: 250px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des17 button:hover{
+   background-color: #C65300;
+}
+ .card18{
+   
+    border-radius: 10px;
+   background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card18 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card18 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card18{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card18:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des18{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des18 h3{
+color:  #E87500;
+}
+.des18 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des18 p{
+   color: #222;
+}
+.des18 button{
+   width: 250px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des18 button:hover{
+   background-color: #C65300;
+}
+ .card19{
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card19 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card19 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card19{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card19:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des19{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des19 h3{
+color:  #E87500;
+}
+.des19 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des19 p{
+   color: #222;
+}
+.des19 button{
+   width: 250px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des19 button:hover{
+   background-color: #C65300;
+}
+ .card20{
+   
+    border-radius: 10px;
+   background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card20 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card20 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card20{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card20:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des20{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des20 h3{
+color:  #E87500;
+}
+.des20 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des20 p{
+   color: #222;
+}
+.des20 button{
+   width: 250px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des20 button:hover{
+   background-color: #C65300;
+}
+ .card21{
+    height: 390px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card21 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card21 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card21{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card21:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des21{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des21 h3{
+color:  #E87500;
+}
+.des21 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des21 p{
+   color: #222;
+}
+.des21 button{
+   width: 250px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des21 button:hover{
+   background-color: #C65300;
+}
+ .card22{
+    height: 390px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card22 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card22 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card22{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card22:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des22{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des22 h3{
+color:  #E87500;
+}
+.des22 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des22 p{
+   color: #222;
+}
+.des22 button{
+   width: 250px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des22 button:hover{
+   background-color: #C65300;
+}
+ .card23{
+    height: 390px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card23 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card23 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card23{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card23:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des23{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des23 h3{
+color:  #E87500;
+}
+.des23 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des23 p{
+   color: #222;
+}
+.des23 button{
+   width: 250px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des23 button:hover{
+   background-color: #C65300;
+}
+ .card24{
+    height: 390px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .card24 span{
+   position: absolute;
+   color: white;
+   background-color: red;
+   margin-top: 10px;
+   margin-left: 105px;
+   padding: 5px 10px;
+   width: 120px;
+   height: 30px;
+   overflow: hidden;
+ }
+ .card24 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+ .card24{
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.card24:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+.des24{
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 5px;
+}
+.des24 h3{
+color:  #E87500;
+}
+.des24 h4{
+   padding: 5px;
+  color:#E69B00; /* pumpkin orange for Halloween theme */
+  font-weight: bold;
+}
+.des24 p{
+   color: #222;
+}
+.des24 button{
+   width: 250px;
+   height: 30px;
+   color: white;
+   border-radius: 10px;
+   border: 1px solid rgb(67, 66, 66);
+   background-color: #FF6D00;
+}
+.des24 button:hover{
+   background-color: #C65300;
+}
+/*-----------------------------*/
+ /*--------------section-6---------------*/
+ /*-----------------------------*/
+ /*---------------higlight-2--------------*/
+ .higlight-2 img{
+    width: 100%;
+    height: 420px;
+    z-index: 0;
+ }
+ /*-----------------------------*/
+ /*--------------section-7---------------*/
+ /*-----------------------------*/
+ .poster-event-1{
+   display: flex;
+   gap: 170px;
+   justify-content: center;
+   margin-top: -10px;
+   padding: 70px;
+  }
+ .des h4{
+   width:190px;
+   margin-top: 10px;
+   margin-left: 5px;
+   color: #E69B00;
+   text-shadow: 2px 6px 7px rgba(206,89,55,0.7);
+ }
+ .pos-1 button{
+   color: #E69B00;
+   background-color: #11100d;
+   width: 200px;
+   height: 40px;
+   margin-top: 10px;
+   border: 1px solid #E69B00;
+   border-radius: 5px;
+   box-shadow: rgba(191, 170, 136, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .pos-1 img{
+   width: 200px;
+   height: 250px;
+   border-radius: 5px;
+ }
+ .pos-1 img:hover{
+   transform: scale(1.05);
+ }
+ .pos-1 img{
+   transition: transform 0.3s ease;
+ }
+ .pos-1 button:hover{
+   background-color: #C65300;}
+ /*---------------------*/
+ .pos-2 img{
+   width: 200px;
+   height:250px;
+   border-radius: 5px;
+ }
+ .pos-2 img:hover{
+   transform: scale(1.05);
+ }
+ .pos-2 img{
+   transition: transform 0.3s ease;
+ }
+ .des h4{
+   width:190px;
+   margin-top: 10px;
+   margin-left: 5px;
+   color: #E69B00;
+   text-shadow: 2px 6px 7px rgba(206,89,55,0.7);
+ }
+ .pos-2 button{
+   color: #E69B00;
+   background-color: #11100d;
+   width: 200px;
+   height: 40px;
+   margin-top: 10px;
+   border: 1px solid #E69B00;
+   border-radius: 5px;
+   box-shadow: rgba(191, 170, 136, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .pos-2 button:hover{
+   background-color: #C65300;}
+ /*--------------------*/
+ .pos-3 img{
+   width: 200px;
+   height: 250px;
+   border-radius: 5px;
+   box-shadow: rgba(191, 170, 136, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .pos-3 img:hover{
+   transform: scale(1.05);
+ }
+ .pos-3 img{
+   transition: transform 0.3s ease;
+ }
+ .des h4{
+   width:190px;
+   margin-top: 10px;
+   margin-left: 5px;
+   color: #E69B00;
+   text-shadow: 2px 6px 7px rgba(206,89,55,0.7);
+ }
+ .pos-3 button{
+   color: #E69B00;
+   background-color: #11100d;
+   width: 200px;
+   height: 40px;
+   margin-top: 10px;
+   border: 1px solid #E69B00;
+   border-radius: 5px;
+   box-shadow: rgba(191, 170, 136, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .pos-3 button:hover{
+   background-color: #C65300;}
+ /*-------------------*/
+ .poster-event-2{
+   display: flex;
+   gap: 200px;
+   justify-content: center;
+   padding: 40px;
+ }
+ .pos-1 img{
+   width: 200px;
+   height: 250px;
+   border-radius: 5px;
+   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+ }
+ .pos-1 img:hover{
+   transform: scale(1.05);
+ }
+ .pos-1 img{
+   transition: transform 0.3s ease;
+ }
+ .pos-2 img{
+   width: 200px;
+   height: 250px;
+   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .pos-2 img:hover{
+   transform: scale(1.05);
+ }
+ .pos-2 img{
+   transition: transform 0.3s ease;
+ }
+ /*--------------------------*/
+ .poster-event-3{
+   display: flex;
+   gap: 170px;
+   justify-content: center;
+   margin-top: -10px;
+   padding: 70px;
+   
+   background-image: url();
+ }
+ .pos-1 img{
+   width: 200px;
+   height: 250px;
+   border-radius: 5px;
+   border: 2px solid #000;
+ }
+ .pos-1 img:hover{
+   transform: scale(1.05);
+ }
+ .pos-1 img{
+   transition: transform 0.3s ease;
+ }
+ /*---------------------*/
+ .pos-2 img{
+   width: 200px;
+   height:250px;
+   border-radius: 5px;
+ }
+ .pos-2 img:hover{
+   transform: scale(1.05);
+ }
+ .pos-2 img{
+   transition: transform 0.3s ease;
+ }
+ /*--------------------*/
+ .pos-3 img{
+   width: 200px;
+   height: 250px;
+   border-radius: 5px;
+   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+ }
+ .pos-3 img:hover{
+   transform: scale(1.05);
+ }
+ .pos-3 img{
+   transition: transform 0.3s ease;
+ }
+
+ /*-----------------------------*/
+ /*--------------footer---------------*/
+ /*-----------------------------*/
+ /* Footer */
+.site-footer {
+  background-color: #b65a04;
+  color: #fff;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Top navigation links */
+.footer-top-links {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.footer-top-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer-top-links a:hover {
+  text-decoration: underline;
+}
+
+/* Info section */
+.footer-info {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+/* Certifications row */
+.footer-certifications {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-certifications img {
+  height: 50px;   /* adjust size of badges */
+}
+
+/* Social media section */
+.footer-social {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-social h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-social a img {
+  width: 30px;
+  height: 30px;
+  margin: 0 8px;
+  transition: transform 0.3s ease;
+}
+
+.footer-social a img:hover {
+  transform: scale(1.2);   /* zoom effect on hover */
+}
+
+/* Bottom line */
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding-top: 10px;
+  font-size: 13px;
+}
+/*-----------------------------*/
+ /*--------------Responsive---------------*/
+ /*-----------------------------*/
+/* Responsive layouts */
+.card-control-1,
+.card-control-2 {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  padding: clamp(20px, 4vw, 60px);
+  gap: clamp(16px, 3vw, 40px);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: none;
+  grid-auto-rows: auto;
+}
+
+.card-control-1 > div,
+.card-control-2 > div {
+  position: relative;
+  min-width: 0;
+  height: auto;
+  padding: 10px;
+}
+
+.card-control-1 > div > img,
+.card-control-2 > div > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  margin: 10px 0 0;
+  object-fit: cover;
+}
+
+.card-control-1 > div > span,
+.card-control-2 > div > span {
+  top: 10px;
+  right: 10px;
+  left: auto;
+  width: auto;
+  max-width: calc(100% - 20px);
+  height: auto;
+  margin: 0;
+  padding: 5px 8px;
+  white-space: nowrap;
+}
+
+.card-control-1 [class^="des"],
+.card-control-2 [class^="des"] {
+  width: auto;
+  margin: 8px 0 0;
+}
+
+.card-control-1 [class^="des"] button,
+.card-control-2 [class^="des"] button {
+  width: 100%;
+  max-width: 100%;
+}
+
+.higlight-1 img,
+.higlight-2 img {
+  display: block;
+  width: 100%;
+  height: clamp(180px, 31vw, 420px);
+  object-fit: cover;
+}
+
+.poster-event-1,
+.poster-event-2,
+.poster-event-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 200px));
+  justify-content: center;
+  gap: clamp(20px, 5vw, 70px);
+  margin-top: 0;
+  padding: clamp(24px, 5vw, 70px);
+}
+
+.poster-event-2 {
+  grid-template-columns: repeat(2, minmax(0, 200px));
+}
+
+.poster-event-1 img,
+.poster-event-2 img,
+.poster-event-3 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.poster-event-1 .des h4,
+.poster-event-2 .des h4,
+.poster-event-3 .des h4 {
+  width: auto;
+  margin: 10px 0 0;
+}
+
+.poster-event-1 button,
+.poster-event-2 button,
+.poster-event-3 button {
+  width: 100%;
+}
+
+.footer-top-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 0;
+}
+
+.footer-certifications {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1100px) {
+  .card-control-1,
+  .card-control-2 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .header2 {
+    height: auto;
+    min-height: 50px;
+  }
+
+  .Navigation {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    margin: 0;
+    padding: 10px 12px;
+  }
+
+  .shop,
+  .custome,
+  .decor,
+  .sale {
+    width: 120px;
+  }
+
+  .btn-shop,
+  .btn-custome,
+  .btn-decor,
+  .btn-sale {
+    width: 100%;
+    justify-content: center;
+    padding: 6px 8px;
+  }
+
+  .icon {
+    gap: 14px;
+  }
+
+  .search input {
+    width: clamp(140px, 24vw, 300px);
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    height: 86px;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 8px 12px;
+  }
+
+  .Logo1 img {
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+  }
+
+  .Logo2 {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .Logo2 img {
+    display: block;
+    width: 100%;
+    height: 70px;
+    object-fit: contain;
+  }
+
+  .header2 {
+    top: 86px;
+  }
+
+  .Navigation {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    padding: 10px 12px;
+  }
+
+  .shop,
+  .custome,
+  .decor,
+  .sale {
+    width: 100%;
+    height: 34px;
+    position: relative;
+  }
+
+  .container-btnshop,
+  .container-btncustome,
+  .container-btndecor,
+  .container-btnsale {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 110;
+    width: min(180px, calc(100vw - 24px));
+    padding-left: 12px;
+  }
+
+  .custome .container-btncustome,
+  .sale .container-btnsale {
+    right: 0;
+    left: auto;
+  }
+
+  .shop:focus-within .container-btnshop {
+    height: 100px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .custome:focus-within .container-btncustome {
+    height: 140px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .decor:focus-within .container-btndecor {
+    height: 160px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .sale:focus-within .container-btnsale {
+    height: 130px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .icon {
+    grid-column: 1 / -1;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .search {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .search input {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-control-1,
+  .card-control-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    padding: 18px 12px;
+  }
+
+  .poster-event-1,
+  .poster-event-2,
+  .poster-event-3 {
+    grid-template-columns: repeat(2, minmax(0, 200px));
+    gap: 24px 16px;
+    padding: 28px 16px;
+  }
+
+  .poster-event-1 > div:last-child,
+  .poster-event-3 > div:last-child {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: min(100%, 200px);
+  }
+
+  .footer-certifications {
+    gap: 12px;
+  }
+
+  .footer-certifications img {
+    max-width: calc(50% - 6px);
+    height: 42px;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 360px) {
+  .card-control-1,
+  .card-control-2 {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 320px;
+  }
+
+  .icon {
+    flex-wrap: wrap;
+  }
+}
